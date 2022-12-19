@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-node-sample-multi-component-example-main-qzvb
     spec:
       containers:
-      - image: quay.io/mkovarik/test-images:f3439971ce2349f4a4beb9f0d29947f9
+      - image: quay.io/mkovarik/test-images@sha256:ecd80cb5758011372cbf20ffa7328b5149b2c6df7ae068c655f873c43ddf5dd7
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
